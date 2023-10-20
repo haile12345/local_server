@@ -24,4 +24,4 @@ def process_login():
     return redirect('/')
 
 if __name__ == '__main__':
-    app.run(host='10.5.199.219', port=80)
+    app.run(host='localhost', port=80) #you can change host and port as you want 
